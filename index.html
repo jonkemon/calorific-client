@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="Shopping">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="app/css/style.css">
+		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="app/js/bootstrap.js"></script>
+		<!--<script type="text/javascript" src="app/js/controllers/panelcontroller.js"></script>-->
+	</head>
+	<body>
+		<div ng-controller="ShoppingItemsController as shoppingItems" class="container-fluid">
+			<h1 ng-include="'app/js/welcome-title.html'"></h1>
+			<p>{{'Welcome ' + 'Shopper'}}</p>
+			<ul class="list-group" ng-repeat="product in shoppingItems.products | orderBy:'-price'">
+				<li class="list-group-item">
+					<img ng-src="{{product.images[0].thumb}}">
+					<p>{{product.name}}</p>
+					<em class="pull-right">{{product.price | currency }}</em>
+					<review-panels></review-panels>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
