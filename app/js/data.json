@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Chocolate Cake",
+		"price": "004.50",
+		"images": [
+			{
+				"thumb": "app/img/soap.jpg"
+			}
+		],
+		"description": "Chocolate Cake - sponge center with chocolate cream in the center",
+		"specification": "6 inches diameter",
+		"reviews": [
+			{
+				"calories": 900,
+				"comment": "Usually pretty heavy but can also be reduced by using oil rather than milk. Bonus Dairy Free option",
+				"source": "jonkemon@hotmail.com"
+			},
+			{
+				"calories": 800,
+				"comment": "Awesome desert, especially during the winter. Try not to have too mcuh cream/ice cream on the side!",
+				"source": "mazieswake@gmail.com"
+			}
+		]
+	},
+	{
+		"name": "Pepperoni Pizza",
+		"price": "9.95",
+		"images": [
+			{
+				"thumb": "app/img/pizza.jpg"
+			}
+		],
+		"description": "Takeaway Pizza",
+		"specification": "12 inch, medium crust",
+		"reviews": [
+			{
+				"calories": 1588,
+				"comment": "Totally delicious fresh pizza, heavy on the cheese though so need to watch how many slices",
+				"source": "jonkemon@hotmail.com"
+			},
+			{
+				"calories": 3,
+				"comment": "Yup, does what I expect",
+				"source": "jonkemon@hotmail.com"
+			}
+		]
+	},
+	{
+		"name": "Moroccan Style Cous Cous",
+		"price": "2.50",
+		"images": [
+			{
+				"thumb": "app/img/couscous.jpg"
+			}
+		],
+		"description": "Moroccan Style Cous Cous from local supermarket",
+		"specification": "Cous cous, raisins, peppers",
+		"reviews": [
+			{
+				"calories": 200,
+				"comment": "Reasonably healthy although depends which supermarket you get it from.",
+				"source": "jonkemon@hotmail.com"
+			},
+			{
+				"calories": 150,
+				"comment": "Yep, excellent gap filler",
+				"source": "jonkemon@hotmail.com"
+			}
+		]
+	},
+	{
+		"name": "HamBurger",
+		"price": "6.95",
+		"images": [
+			{
+				"thumb": "app/img/hamburger.jpg"
+			}
+		],
+		"description": "Local burger joint standard HamBurger",
+		"specification": "5inch",
+		"reviews": [
+			{
+				"calories": 750,
+				"comment": "Super bad, super fatty but completely awesome!",
+				"source": "jonkemon@hotmail.com"
+			},
+			{
+				"calories": 575,
+				"comment": "Bit bland but certainly fills the need for a splurge!",
+				"source": "jonkemon@hotmail.com"
+			}
+		]
+	}
+]

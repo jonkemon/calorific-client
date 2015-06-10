@@ -1,0 +1,9 @@
+<h1 ng-include="'app/js/welcome-title.html'"></h1>
+<ul class="list-group" ng-repeat="product in shoppingItems.products | orderBy:'-price'">
+	<li class="list-group-item">
+		<img ng-src="{{product.images[0].thumb}}">
+		<p>{{product.name}}</p>
+		<em class="pull-right">{{product.price | currency }}</em>
+		<review-panels></review-panels>
+	</li>
+</ul>

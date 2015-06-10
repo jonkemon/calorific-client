@@ -1,6 +1,11 @@
-( function(app) {
-	angular.controller('PanelController', function() {
+application.controller('PanelController', ['$rootScope', '$scope', function($rootScope, $scope) {
+	$scope.tab = 1;
 
-	});
+	$scope.selectTab = function(setTab) {
+		$scope.tab = setTab;
+	};
 
-)(application);
+	$scope.isSelected = function(selectedTab) {
+		return $scope.tab === selectedTab;
+	}
+}]);

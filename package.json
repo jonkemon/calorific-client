@@ -1,0 +1,27 @@
+{
+  "name": "calorific-client",
+  "version": "0.0.1",
+  "description": "Calorific Client",
+  "main": "js/bootstrap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/SpecRunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonkemon/calorific-client.git"
+  },
+  "keywords": [
+    "Calorific",
+    "Food",
+    "Reviews"
+  ],
+  "author": "John Morrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonkemon/calorific-client/issues"
+  },
+  "homepage": "https://github.com/jonkemon/calorific-client#readme"
+}
