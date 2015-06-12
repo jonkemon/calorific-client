@@ -1,0 +1,18 @@
+<div class="panel" ng-show="isSelected(1)">
+	<h4>Description</h4>
+	<p>{{product.description}}</p>
+</div>
+<div class="panel" ng-show="isSelected(2)">
+	<h4>Specfication</h4>
+	<p>{{product.specification}}</p>
+</div>
+<div class="panel reviews" ng-show="isSelected(3)">
+	<h4>Reviews</h4>
+	<ul class="reviews__container" ng-repeat="review in product.reviews">
+		<li class="reviews__container__item">
+			<h5>Calories: {{review.calories}}/5</h5>
+			<p>{{review.comment}}</p>
+			<em>By: {{review.source}}</em>
+		</li>
+	</ul>
+</div>

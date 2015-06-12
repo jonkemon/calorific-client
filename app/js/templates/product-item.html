@@ -1,0 +1,14 @@
+<section ng-controller="ProductItemController as productItem">
+	<ul class="nav nav-pills">
+		<li ng-class="{active:isSelected(1)}">
+			<a href ng-click="selectTab(1)">Description</a>
+		</li>
+		<li ng-class="{active:isSelected(2)}">
+			<a href ng-click="selectTab(2)">Specification</a>
+		</li>
+		<li ng-class="{active:isSelected(3)}">
+			<a href ng-click="selectTab(3)">Reviews</a>
+		</li>
+	</ul>
+	<product-panels></product-panels>
+</section>

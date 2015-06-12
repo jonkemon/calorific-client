@@ -1,10 +1,10 @@
 application.controller('CalorificItemsController', ['$http', function($http) {
 
-	var shop = this;
-	shop.products = [];
+	var calorificStore = this;
+	calorificStore.products = [];
 
 	$http.get('app/js/data.json').success(function(data){
-		shop.products = data;
+		calorificStore.products = data;
 	})
 	.error(function(err){
 		console.log(err);

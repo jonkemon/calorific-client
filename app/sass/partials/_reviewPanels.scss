@@ -1,0 +1,44 @@
+.panel {
+	border: 0;
+	
+	p {
+		padding: 0;
+		line-height: 1.4em;
+	}
+}
+
+review-panels em {
+	clear: both;
+}
+
+.reviews {
+	li {
+	float: left;
+	margin-bottom: 1em;
+	list-style-type: none;
+	border-bottom: 1px dotted black;
+	width: 100%;
+	}
+	ul {
+		padding: 0;
+	}
+	h5 {
+		clear: both;
+	}
+}
+
+.list-group {
+	&__item {
+		float: left;
+		width: 100%;
+		margin: 0.6em 0;
+		
+		p {
+			float:left;
+			padding-top: 0;
+			padding-top: 0;
+			padding-left: 2em;
+			line-height: 3em;
+		}
+	}
+}

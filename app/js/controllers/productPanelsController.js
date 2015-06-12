@@ -1,4 +1,4 @@
-application.controller('PanelController', ['$rootScope', '$scope', function($rootScope, $scope) {
+application.controller('ProductPanelsController', ['$rootScope', '$scope', function($rootScope, $scope) {
 	$scope.tab = 1;
 
 	$scope.selectTab = function(setTab) {
